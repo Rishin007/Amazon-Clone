@@ -1,0 +1,286 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    
+    height: 56px;
+    width: 106px;
+}
+.logo{
+    height: 50px;
+    width:100%;
+    background-image: url("logo2.webp");
+    background-size: cover;
+    
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+border: 1.5px solid white;
+}
+
+.navaddress{
+    height: 38px;
+    padding-left: 9px;
+    padding-left: 9px;
+    margin: 5px 2px 5px 0px;
+}
+.navaddress:hover{
+    border: 1.5px solid white;
+}
+
+
+#deliver{
+    margin-left: 20px;
+    font-size: 0.74rem;
+    color: #CCCCCC;
+}
+#india{
+    font-size: 1rem;
+    font-weight: 700;
+    color:#FFFFFF;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    margin-left: 6px;
+}
+
+/* SEARCH BAR STARTING*/
+
+.nav-search{
+    display: flex;
+    height: 34px;
+    margin-left: 3px;
+
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.search-bar{
+    width:520px;
+    border: none;
+}
+.search-icon{
+    width: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: black;
+    border: none;
+    background-color: rgb(224, 180, 3);
+}
+.search-icon:hover{
+    background-color: rgb(220, 161, 11);
+}
+.search-icon:active{
+    background-color: rgb(224, 180, 3);
+}
+.browse{
+    font-size: 0.7rem;
+    text-align: center;
+    width: 40px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #E6E6E6;
+    color:#0F1111;
+    border:none;
+}
+
+.browse:hover{
+    background-color: darkgrey;
+}
+.browse:active{
+    background-color: white;
+}
+
+/* ------------------------- */
+
+.nav-sign{
+    margin-left: 20px;
+}
+.span{
+    color:  #E6E6E6;
+    font-size: 0.72rem;
+}
+.nav-sign:hover{
+    border: 2px solid white;
+}
+.accounts{
+    font-weight: 700;
+    font-size: 0.86rem;
+}
+.nav-return:hover{
+    border: 2px solid white;
+}
+
+/* ************************* */
+
+.cart{
+    font-size: 26px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart:hover{
+    border: 2px solid;
+}
+
+/* ************************************************ */
+
+
+.nav-panel{
+    color: #FFFFFF;
+    height: 40px;
+    background-color: #232F3E;
+    padding-left: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.panel-ops{
+    width: 70%;
+    
+    font-size: 0.85rem;
+    
+}
+.deals{
+    align-items: center;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.panel-all:hover{
+    border: 2px solid white ;
+}
+
+.anchor{
+    margin-left: 15px;
+    
+}
+.anchor:hover{
+    border: 2px solid white ;
+}
+
+.deals:hover{
+    border: 2px solid white;
+}
+
+/* *********************************************  */
+
+.hero{
+    height: 400px;
+    background-image: url("back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ---------------------------------- */
+
+.shopping{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+
+    height:300px;
+    width:30%;
+    margin : 15px;
+    border:1 px solid transparent;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: white;
+
+}
+.content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.image{
+    height: 220px;
+}
+.seemore{
+    font-size: 0.8rem;
+    color:rgb(6, 192, 164)
+}
+.seemore:hover{
+    color: rgba(39, 101, 224, 0.858);
+    font-size: 1rem;
+    font-weight: 700;
+}
+footer{
+    margin-top: 12px;
+}
+.footpanel1{
+    height: 50px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+}
+.panel2{
+    background-color: #232F3E;
+    color: #dddddd;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    display:block;
+    font-size: 0.85rem;
+    margin-top: 15px;
+}
+ul a:hover{
+    text-decoration: underline;
+}
+
+.panel3{
+    border-top: 0.2px solid rgba(203, 198, 198, 0.893);
+    background-color: #232F3E;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.image2{
+    height: 60px;
+    width:100px;
+    margin-top: 20px;
+    background-image: url("logo4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.panel4{
+    width: 1215.06px;
+    border-top: 0.2px solid #0F1111;
+    height: 100px;
+    color: white;
+    font-size: 0.7rem;
+    background-color: #0F1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
